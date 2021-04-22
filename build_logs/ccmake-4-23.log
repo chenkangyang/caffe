@@ -1,0 +1,208 @@
+ALLOW_LMDB_NOLOCK                OFF
+Atlas_BLAS_LIBRARY               Atlas_BLAS_LIBRARY-NOTFOUND
+Atlas_CBLAS_INCLUDE_DIR          Atlas_CBLAS_INCLUDE_DIR-NOTFOUND
+Atlas_CBLAS_LIBRARY              Atlas_CBLAS_LIBRARY-NOTFOUND
+Atlas_CLAPACK_INCLUDE_DIR        Atlas_CLAPACK_INCLUDE_DIR-NOTFOUND
+Atlas_LAPACK_LIBRARY             Atlas_LAPACK_LIBRARY-NOTFOUND
+BLAS                             Open
+BUILD_SHARED_LIBS                ON
+BUILD_docs                       ON
+BUILD_matlab                     OFF
+BUILD_only_tests
+BUILD_python                     ON
+BUILD_python_layer               ON
+Boost_DIR                        /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/Boost-1.74.0
+Boost_FILESYSTEM_LIBRARY_RELEA   /home/zhangwenting/anaconda3/envs/torch11/lib/libboost_filesystem.so.1.74.0
+Boost_INCLUDE_DIR                /home/zhangwenting/anaconda3/envs/torch11/include
+Boost_PYTHON37_LIBRARY_RELEASE   /home/zhangwenting/anaconda3/envs/torch11/lib/libboost_python37.so.1.74.0
+Boost_PYTHON_LIBRARY_RELEASE     /home/zhangwenting/anaconda3/envs/torch11/lib/libboost_python37.so.1.74.0
+Boost_SYSTEM_LIBRARY_RELEASE     /home/zhangwenting/anaconda3/envs/torch11/lib/libboost_system.so.1.74.0
+Boost_THREAD_LIBRARY_RELEASE     /home/zhangwenting/anaconda3/envs/torch11/lib/libboost_thread.so.1.74.0
+CAFFE_TARGET_SOVERSION           1.0.0
+CAFFE_TARGET_VERSION             1.0.0
+CMAKE_ADDR2LINE                  /usr/bin/addr2line
+CMAKE_AR                         /usr/bin/ar
+CMAKE_BUILD_TYPE
+CMAKE_COLOR_MAKEFILE             ON
+CMAKE_CONFIGURATION_TYPES        Debug;Release
+CMAKE_CXX_COMPILER               /home/zhangwenting/zzapp/bin/c++
+CMAKE_CXX_COMPILER_AR            /home/zhangwenting/zzapp/bin/gcc-ar
+CMAKE_CXX_COMPILER_RANLIB        /home/zhangwenting/zzapp/bin/gcc-ranlib
+CMAKE_CXX_FLAGS
+CMAKE_CXX_FLAGS_DEBUG            -g
+CMAKE_CXX_FLAGS_MINSIZEREL       -Os -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE          -O3 -DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO   -O2 -g -DNDEBUG
+CMAKE_C_COMPILER                 /home/zhangwenting/zzapp/bin/gcc
+CMAKE_C_COMPILER_AR              /home/zhangwenting/zzapp/bin/gcc-ar
+CMAKE_C_COMPILER_RANLIB          /home/zhangwenting/zzapp/bin/gcc-ranlib
+CMAKE_C_FLAGS
+CMAKE_C_FLAGS_DEBUG              -g
+CMAKE_C_FLAGS_MINSIZEREL         -Os -DNDEBUG
+CMAKE_C_FLAGS_RELEASE            -O3 -DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO     -O2 -g -DNDEBUG
+CMAKE_DLLTOOL                    CMAKE_DLLTOOL-NOTFOUND
+CMAKE_EXE_LINKER_FLAGS
+CMAKE_EXE_LINKER_FLAGS_DEBUG
+CMAKE_EXE_LINKER_FLAGS_MINSIZE
+CMAKE_EXE_LINKER_FLAGS_RELEASE
+CMAKE_EXE_LINKER_FLAGS_RELWITH
+CMAKE_EXPORT_COMPILE_COMMANDS    OFF
+CMAKE_INSTALL_BINDIR             bin
+CMAKE_INSTALL_DATADIR
+CMAKE_INSTALL_DATAROOTDIR        share
+CMAKE_INSTALL_DOCDIR
+CMAKE_INSTALL_INCLUDEDIR         include
+CMAKE_INSTALL_INFODIR
+CMAKE_INSTALL_LIBDIR             lib64
+CMAKE_INSTALL_LIBEXECDIR         libexec
+CMAKE_INSTALL_LOCALEDIR
+CMAKE_INSTALL_LOCALSTATEDIR      var
+CMAKE_INSTALL_MANDIR
+CMAKE_INSTALL_OLDINCLUDEDIR      /usr/include
+CMAKE_INSTALL_PREFIX             /home/zhangwenting/software/caffe/build/install
+CMAKE_INSTALL_RPATH_USE_LINK_P   TRUE
+CMAKE_INSTALL_RUNSTATEDIR
+CMAKE_INSTALL_SBINDIR            sbin
+CMAKE_INSTALL_SHAREDSTATEDIR     com
+CMAKE_INSTALL_SYSCONFDIR         etc
+CMAKE_LINKER                     /usr/bin/ld
+CMAKE_MAKE_PROGRAM               /usr/bin/gmake
+CMAKE_MODULE_LINKER_FLAGS
+CMAKE_MODULE_LINKER_FLAGS_DEBU
+CMAKE_MODULE_LINKER_FLAGS_MINS
+CMAKE_MODULE_LINKER_FLAGS_RELE
+CMAKE_MODULE_LINKER_FLAGS_RELW
+CMAKE_NM                         /usr/bin/nm
+CMAKE_OBJCOPY                    /usr/bin/objcopy
+CMAKE_OBJDUMP                    /usr/bin/objdump
+CMAKE_RANLIB                     /usr/bin/ranlib
+CMAKE_READELF                    /usr/bin/readelf
+CMAKE_SHARED_LINKER_FLAGS
+CMAKE_SHARED_LINKER_FLAGS_DEBU
+CMAKE_SHARED_LINKER_FLAGS_MINS
+CMAKE_SHARED_LINKER_FLAGS_RELE
+CMAKE_SHARED_LINKER_FLAGS_RELW
+CMAKE_SKIP_INSTALL_RPATH         OFF
+CMAKE_SKIP_RPATH                 OFF
+CMAKE_STATIC_LINKER_FLAGS
+CMAKE_STATIC_LINKER_FLAGS_DEBU
+CMAKE_STATIC_LINKER_FLAGS_MINS
+CMAKE_STATIC_LINKER_FLAGS_RELE
+CMAKE_STATIC_LINKER_FLAGS_RELW
+CMAKE_STRIP                      /usr/bin/strip
+CMAKE_VERBOSE_MAKEFILE           OFF
+CPU_ONLY                         OFF
+CUDA_64_BIT_DEVICE_CODE          ON
+CUDA_ARCH_NAME                   Auto
+CUDA_ATTACH_VS_BUILD_RULE_TO_C   ON
+CUDA_BUILD_CUBIN                 OFF
+CUDA_BUILD_EMULATION             OFF
+CUDA_CUDART_LIBRARY              /usr/local/cuda/lib64/libcudart.so
+CUDA_CUDA_LIBRARY                /usr/lib64/libcuda.so
+CUDA_GENERATED_OUTPUT_DIR
+CUDA_HOST_COMPILATION_CPP        ON
+CUDA_HOST_COMPILER               /home/zhangwenting/zzapp/bin/gcc
+CUDA_NVCC_EXECUTABLE             /usr/local/cuda/bin/nvcc
+CUDA_NVCC_FLAGS
+CUDA_NVCC_FLAGS_DEBUG
+CUDA_NVCC_FLAGS_MINSIZEREL
+CUDA_NVCC_FLAGS_RELEASE
+CUDA_NVCC_FLAGS_RELWITHDEBINFO
+CUDA_OpenCL_LIBRARY              /usr/local/cuda/lib64/libOpenCL.so
+CUDA_PROPAGATE_HOST_FLAGS        ON
+CUDA_SDK_ROOT_DIR                CUDA_SDK_ROOT_DIR-NOTFOUND
+CUDA_SEPARABLE_COMPILATION       OFF
+CUDA_TOOLKIT_INCLUDE             /usr/local/cuda/include
+CUDA_TOOLKIT_ROOT_DIR            /usr/local/cuda
+CUDA_USE_STATIC_CUDA_RUNTIME     ON
+CUDA_VERBOSE_BUILD               OFF
+CUDA_VERSION                     11.1
+CUDA_cublas_LIBRARY              /usr/local/cuda/lib64/libcublas.so
+CUDA_cudadevrt_LIBRARY           /usr/local/cuda/lib64/libcudadevrt.a
+CUDA_cudart_static_LIBRARY       /usr/local/cuda/lib64/libcudart_static.a
+CUDA_cufft_LIBRARY               /usr/local/cuda/lib64/libcufft.so
+CUDA_cupti_LIBRARY               /usr/local/cuda/extras/CUPTI/lib64/libcupti.so
+CUDA_curand_LIBRARY              /usr/local/cuda/lib64/libcurand.so
+CUDA_cusolver_LIBRARY            /usr/local/cuda/lib64/libcusolver.so
+CUDA_cusparse_LIBRARY            /usr/local/cuda/lib64/libcusparse.so
+CUDA_nppc_LIBRARY                /usr/local/cuda/lib64/libnppc.so
+CUDA_nppi_LIBRARY                CUDA_nppi_LIBRARY-NOTFOUND
+CUDA_nppial_LIBRARY              /usr/local/cuda/lib64/libnppial.so
+CUDA_nppicc_LIBRARY              /usr/local/cuda/lib64/libnppicc.so
+CUDA_nppidei_LIBRARY             /usr/local/cuda/lib64/libnppidei.so
+CUDA_nppif_LIBRARY               /usr/local/cuda/lib64/libnppif.so
+CUDA_nppig_LIBRARY               /usr/local/cuda/lib64/libnppig.so
+CUDA_nppim_LIBRARY               /usr/local/cuda/lib64/libnppim.so
+CUDA_nppist_LIBRARY              /usr/local/cuda/lib64/libnppist.so
+CUDA_nppisu_LIBRARY              /usr/local/cuda/lib64/libnppisu.so
+CUDA_nppitc_LIBRARY              /usr/local/cuda/lib64/libnppitc.so
+CUDA_npps_LIBRARY                /usr/local/cuda/lib64/libnpps.so
+CUDA_nvToolsExt_LIBRARY          /usr/local/cuda/lib64/libnvToolsExt.so
+CUDA_rt_LIBRARY                  /usr/lib64/librt.so
+CUDNN_INCLUDE                    /home/share/cudnn-8.0-v5.1/include
+CUDNN_LIBRARY                    /home/share/cudnn-8.0-v5.1/lib64/libcudnn.so
+CUDNN_ROOT
+DOXYGEN_DOT_EXECUTABLE           DOXYGEN_DOT_EXECUTABLE-NOTFOUND
+DOXYGEN_EXECUTABLE               /usr/bin/doxygen
+DOXYGEN_config_file              /home/zhangwenting/software/caffe/.Doxyfile
+GFLAGS_INCLUDE_DIR               /home/zhangwenting/anaconda3/envs/torch11/include
+GFLAGS_LIBRARY                   /home/zhangwenting/anaconda3/envs/torch11/lib/libgflags.so
+GFLAGS_ROOT_DIR
+GIT_EXECUTABLE                   /usr/bin/git
+GLOG_INCLUDE_DIR                 /home/zhangwenting/anaconda3/envs/torch11/include
+GLOG_LIBRARY                     /home/zhangwenting/anaconda3/envs/torch11/lib/libglog.so
+GLOG_ROOT_DIR
+HDF5_CXX_COMPILER_EXECUTABLE     /home/zhangwenting/anaconda3/envs/torch11/bin/h5c++
+HDF5_CXX_INCLUDE_DIR             /home/zhangwenting/anaconda3/envs/torch11/include
+HDF5_C_COMPILER_EXECUTABLE       /home/zhangwenting/anaconda3/envs/torch11/bin/h5cc
+HDF5_C_INCLUDE_DIR               /home/zhangwenting/anaconda3/envs/torch11/include
+HDF5_DIFF_EXECUTABLE             /home/zhangwenting/anaconda3/envs/torch11/bin/h5diff
+HDF5_DIR                         HDF5_DIR-NOTFOUND
+HDF5_IS_PARALLEL                 OFF
+HDF5_hdf5_LIBRARY_DEBUG          /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5.so
+HDF5_hdf5_LIBRARY_RELEASE        /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5.so
+HDF5_hdf5_cpp_LIBRARY_DEBUG      /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5_cpp.so
+HDF5_hdf5_cpp_LIBRARY_RELEASE    /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5_cpp.so
+HDF5_hdf5_hl_LIBRARY_DEBUG       /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5_hl.so
+HDF5_hdf5_hl_LIBRARY_RELEASE     /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5_hl.so
+HDF5_hdf5_hl_cpp_LIBRARY_DEBUG   /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5_hl_cpp.so
+HDF5_hdf5_hl_cpp_LIBRARY_RELEA   /home/zhangwenting/anaconda3/envs/torch11/lib/libhdf5_hl_cpp.so
+LMDB_INCLUDE_DIR                 /home/zhangwenting/anaconda3/envs/torch11/include
+LMDB_LIBRARIES                   /home/zhangwenting/anaconda3/envs/torch11/lib/liblmdb.so
+LevelDB_INCLUDE                  /home/zhangwenting/anaconda3/envs/torch11/include
+LevelDB_LIBRARY                  /home/zhangwenting/anaconda3/envs/torch11/lib/libleveldb.so
+OpenBLAS_INCLUDE_DIR             /home/zhangwenting/anaconda3/envs/torch11/include
+OpenBLAS_LIB                     /home/zhangwenting/anaconda3/envs/torch11/lib/libopenblas.so
+OpenCV_DIR                       /home/zhangwenting/zzapp/lib64/cmake/opencv4
+PYTHON_EXECUTABLE                /home/zhangwenting/anaconda3/envs/torch11/bin/python
+PYTHON_INCLUDE_DIR               /home/zhangwenting/anaconda3/envs/torch11/include/python3.7m
+PYTHON_LIBRARY                   /home/zhangwenting/anaconda3/envs/torch11/lib/libpython3.7m.so
+PYTHON_LIBRARY_DEBUG             /home/zhangwenting/anaconda3/envs/torch11/lib/libpython3.7m.so
+Protobuf_INCLUDE_DIR             /home/zhangwenting/software/protobuf-3.6.0/install/include
+Protobuf_LIBRARY_DEBUG           /home/zhangwenting/software/protobuf-3.6.0/install/lib/libprotobuf.so.16.0.0
+Protobuf_LIBRARY_RELEASE         /home/zhangwenting/software/protobuf-3.6.0/install/lib/libprotobuf.so.16.0.0
+Protobuf_LITE_LIBRARY_DEBUG      /home/zhangwenting/software/protobuf-3.6.0/install/lib/libprotobuf-lite.so.16.0.0
+Protobuf_LITE_LIBRARY_RELEASE    /home/zhangwenting/software/protobuf-3.6.0/install/lib/libprotobuf-lite.so.16.0.0
+Protobuf_PROTOC_EXECUTABLE       /home/zhangwenting/software/protobuf-3.6.0/install/bin/protoc
+Protobuf_PROTOC_LIBRARY_DEBUG    /home/zhangwenting/software/protobuf-3.6.0/install/lib/libprotoc.so.16.0.0
+Protobuf_PROTOC_LIBRARY_RELEAS   /home/zhangwenting/software/protobuf-3.6.0/install/lib/libprotoc.so.16.0.0
+Snappy_INCLUDE_DIR               /home/zhangwenting/anaconda3/envs/torch11/include
+Snappy_LIBRARIES                 /home/zhangwenting/anaconda3/envs/torch11/lib/libsnappy.so
+USE_CUDNN                        ON
+USE_HDF5                         ON
+USE_LEVELDB                      ON
+USE_LMDB                         ON
+USE_NCCL                         OFF
+USE_OPENCV                       ON
+USE_OPENMP                       OFF
+USE_PROJECT_FOLDERS              OFF
+boost_filesystem_DIR             /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/boost_filesystem-1.74.0
+boost_headers_DIR                /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/boost_headers-1.74.0
+boost_python-py373_DIR           boost_python-py373_DIR-NOTFOUND
+boost_python-py37_DIR            boost_python-py37_DIR-NOTFOUND
+boost_python-py3_DIR             boost_python-py3_DIR-NOTFOUND
+boost_python373_DIR              /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/boost_python-1.74.0
+boost_python_DIR                 /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/boost_python-1.74.0
+boost_system_DIR                 /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/boost_system-1.74.0
+boost_thread_DIR                 /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/boost_thread-1.74.0

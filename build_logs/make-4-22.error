@@ -1,0 +1,655 @@
+In file included from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:1:
+/usr/local/cuda/include/math_functions.h:54:2: warning: #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+   54 | #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  ^~~~~~~
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:1:
+/usr/local/cuda/include/math_functions.h:54:2: warning: #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+   54 | #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  ^~~~~~~
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:1:
+/usr/local/cuda/include/math_functions.h:54:2: warning: #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+   54 | #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  ^~~~~~~
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:1:
+/usr/local/cuda/include/math_functions.h:54:2: warning: #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+   54 | #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  ^~~~~~~
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:1:
+/usr/local/cuda/include/math_functions.h:54:2: warning: #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+   54 | #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  ^~~~~~~
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cu:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:1:
+/usr/local/cuda/include/math_functions.h:54:2: warning: #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+   54 | #warning "math_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+      |  ^~~~~~~
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/math_functions.cu:2:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h:34,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/for_each.h:42,
+                 from /usr/local/cuda/include/thrust/detail/for_each.inl:27,
+                 from /usr/local/cuda/include/thrust/for_each.h:279,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.inl:19,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/transform.h:105,
+                 from /usr/local/cuda/include/thrust/detail/transform.inl:25,
+                 from /usr/local/cuda/include/thrust/transform.h:724,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.inl:23,
+                 from /usr/local/cuda/include/thrust/system/detail/generic/copy.h:58,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/softmax_layer.cu:5:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /usr/local/cuda/include/thrust/detail/config/config.h:27,
+                 from /usr/local/cuda/include/thrust/detail/config.h:23,
+                 from /usr/local/cuda/include/thrust/device_vector.h:24,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cpp:4:
+/usr/local/cuda/include/thrust/detail/config/cpp_dialect.h:104:13: warning: Thrust requires C++14. Please pass -std=c++14 to your compiler. Define THRUST_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  104 |   THRUST_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
+In file included from /usr/local/cuda/include/cub/util_arch.cuh:36,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/util.h:32,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/internal/copy_cross_system.h:39,
+                 from /usr/local/cuda/include/thrust/system/cuda/detail/copy.h:100,
+                 from /usr/local/cuda/include/thrust/system/detail/adl/copy.h:42,
+                 from /usr/local/cuda/include/thrust/detail/copy.inl:22,
+                 from /usr/local/cuda/include/thrust/detail/copy.h:90,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl:21,
+                 from /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h:46,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.inl:23,
+                 from /usr/local/cuda/include/thrust/detail/contiguous_storage.h:235,
+                 from /usr/local/cuda/include/thrust/detail/vector_base.h:30,
+                 from /usr/local/cuda/include/thrust/device_vector.h:25,
+                 from /home/zhangwenting/software/caffe/src/caffe/layers/cudnn_softmax_layer.cpp:4:
+/usr/local/cuda/include/cub/util_cpp_dialect.cuh:129:13: warning: CUB requires C++14. Please pass -std=c++14 to your compiler. Define CUB_IGNORE_DEPRECATED_CPP_DIALECT to suppress this message.
+  129 |   CUB_COMPILER_DEPRECATION(C++14, pass -std=c++14 to your compiler);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                         
+In file included from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/shared_ptr.hpp:17,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/python/converter/shared_ptr_to_python.hpp:12,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/python/converter/arg_to_python.hpp:15,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/python/call.hpp:15,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/python/object_core.hpp:14,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/python/args.hpp:22,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/python.hpp:11,
+                 from /home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp:4:
+/home/zhangwenting/anaconda3/envs/torch11/include/boost/bind.hpp:36:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+/home/zhangwenting/anaconda3/envs/torch11/include/boost/detail/iterator.hpp:13:1: note: #pragma message: This header is deprecated. Use <iterator> instead.
+   13 | BOOST_HEADER_DEPRECATED("<iterator>")
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp: In instantiation of ‘boost::shared_ptr<caffe::Layer<Dtype> > caffe::GetPythonLayer(const caffe::LayerParameter&) [with Dtype = float]’:
+/home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp:304:1:   required from here
+/home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp:298:5: warning: catching polymorphic type ‘struct boost::python::error_already_set’ by value [-Wcatch-value=]
+  298 |   } catch (bp::error_already_set) {
+      |     ^~~~~
+/home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp: In instantiation of ‘boost::shared_ptr<caffe::Layer<Dtype> > caffe::GetPythonLayer(const caffe::LayerParameter&) [with Dtype = double]’:
+/home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp:304:1:   required from here
+/home/zhangwenting/software/caffe/src/caffe/layer_factory.cpp:298:5: warning: catching polymorphic type ‘struct boost::python::error_already_set’ by value [-Wcatch-value=]
+In file included from /home/zhangwenting/anaconda3/envs/torch11/include/boost/bind.hpp:30,
+                 from /home/zhangwenting/software/caffe/src/caffe/util/signal_handler.cpp:1:
+/home/zhangwenting/anaconda3/envs/torch11/include/boost/bind.hpp:36:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/make_shared_object.hpp:17,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/smart_ptr/make_shared.hpp:14,
+                 from /home/zhangwenting/anaconda3/envs/torch11/include/boost/make_shared.hpp:14,
+                 from /home/zhangwenting/software/caffe/python/caffe/_caffe.cpp:6:
+/home/zhangwenting/anaconda3/envs/torch11/include/boost/bind.hpp:36:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+/home/zhangwenting/anaconda3/envs/torch11/include/boost/detail/iterator.hpp:13:1: note: #pragma message: This header is deprecated. Use <iterator> instead.
+   13 | BOOST_HEADER_DEPRECATED("<iterator>")
+      | ^~~~~~~~~~~~~~~~~~~~~~~

@@ -169,6 +169,12 @@ if(BUILD_python)
         break()
       endif()
     endwhile()
+    
+    if(NOT Boost_PYTHON_FOUND)
+      find_package(Boost 1.46 COMPONENTS "python${boost_py_version}")
+      set(Boost_PYTHON_FOUND ${Boost_PYTHON${boost_py_version}_FOUND})
+    endif()
+
     if(NOT Boost_PYTHON_FOUND)
       find_package(Boost 1.46 COMPONENTS python)
     endif()

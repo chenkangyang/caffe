@@ -1,0 +1,11 @@
+In file included from /home/zhangwenting/software/caffe/src/gtest/gtest-all.cpp:39:
+In function ‘const char* testing::internal::posix::StrNCpy(char*, const char*, size_t)’,
+    inlined from ‘char* testing::internal::CloneString(const char*, size_t)’ at /home/zhangwenting/software/caffe/src/gtest/gtest-all.cpp:2143:19,
+    inlined from ‘static const char* testing::internal::String::CloneCString(const char*)’ at /home/zhangwenting/software/caffe/src/gtest/gtest-all.cpp:2154:39:
+/home/zhangwenting/software/caffe/src/gtest/gtest.h:2672:17: warning: ‘char* strncpy(char*, const char*, size_t)’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+ 2672 |   return strncpy(dest, src, n);
+      |          ~~~~~~~^~~~~~~~~~~~~~
+/home/zhangwenting/software/caffe/src/gtest/gtest-all.cpp: In static member function ‘static const char* testing::internal::String::CloneCString(const char*)’:
+/home/zhangwenting/software/caffe/src/gtest/gtest-all.cpp:2154:39: note: length computed here
+ 2154 |                     NULL : CloneString(c_str, strlen(c_str));
+      |                            ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
