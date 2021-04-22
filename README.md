@@ -46,7 +46,7 @@ Please cite Caffe in your publications if it helps your research:
 ---
 # 快速安装指南
 系统 Centos7
-[踩坑记录]()
+[踩坑记录](TODO)
 基于源码master`9b89154`的改动: 
 1. 支持`opencv-4.3`, [安装脚本](https://github.com/chenkangyang/setup/blob/181/zzopencv.sh); [.zshrc](https://github.com/chenkangyang/setup/blob/181/.zshrc)
 2. 支持`cuda-11.1`, `cudnn-8`
@@ -220,9 +220,11 @@ python -c "import caffe"
 - [x] Support: `python3.7` `numpy 1.19.2` `protobuf-3.6` 
 
 ```shell
-conda create -n caffe
+conda create -n caffe python==3.7
 source activate caffe
 # Download source and tar -xzvf
+wget -c (TODO) 
+tar -zxvf pycaffe-1.0.0.tar.gz
 cd pycaffe-1.0.0
 pip install -r requirements
 cd /your/path/to/site-packages
