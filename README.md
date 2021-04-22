@@ -46,7 +46,7 @@ Please cite Caffe in your publications if it helps your research:
 ---
 # 快速安装指南
 系统 Centos7
-[踩坑记录](TODO)
+[踩坑记录](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/%E8%B8%A9%E5%9D%91.md)
 基于源码master`9b89154`的改动: 
 1. 支持`opencv-4.3`, [安装脚本](https://github.com/chenkangyang/setup/blob/181/zzopencv.sh); [.zshrc](https://github.com/chenkangyang/setup/blob/181/.zshrc)
 2. 支持`cuda-11.1`, `cudnn-8`
@@ -212,18 +212,21 @@ python -c "import caffe"
 
 # Release
 
-`pycaffe-1.0.0`: [Release-1.0](TODO)
+For all: [caffe-1.0.0-linux-x86_64](https://github.com/chenkangyang/caffe/releases/download/v1.0/caffe-1.0.0-linux-x86_64.tar.gz)
+For python: [pycaffe-1.0.0](https://github.com/chenkangyang/caffe/releases/download/v1.0/pycaffe-1.0.0.tar.gz)
  
 - [x] Support: `CentOS Linux release 7.2.1511` `CUDA-11.1` `CuDNN-8`
 - [x] Support: `gcc 9.1.0` `c++11` `cmake 3.20.1`
 - [x] Support: `opencv-4.3`
 - [x] Support: `python3.7` `numpy 1.19.2` `protobuf-3.6` 
 
+python 安装 caffe 模块:
+
 ```shell
 conda create -n caffe python==3.7
 source activate caffe
 # Download source and tar -xzvf
-wget -c (TODO) 
+wget -c https://github.com/chenkangyang/caffe/releases/download/v1.0/pycaffe-1.0.0.tar.gz 
 tar -zxvf pycaffe-1.0.0.tar.gz
 cd pycaffe-1.0.0
 pip install -r requirements
