@@ -128,7 +128,7 @@ cmake ..
 cd build
 ccmake ..
 ```
-[完整参考](TODO)
+[完整参考](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/ccmake-4-23.log)
 
 这一步自动生成 `build/Makefile`
 
@@ -137,14 +137,14 @@ ccmake ..
 cd build
 make -j"$(nproc)" 1> make-4-23.log 2> make-4-23.error 
 ```
-[日志](TODO)
+[日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/make-4-23.log)
 
 ## 安装测试
 ```shell
 cd build
 make install 1> install-4-23.log 2> install-4-23.error
 ```
-[安装日志](TODO)
+[安装日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/install-4-23.log)
 
 ---
 
@@ -152,7 +152,7 @@ make install 1> install-4-23.log 2> install-4-23.error
 cd build
 make runtest 1> runtest-4-23.log 2> runtest-4-23.error 
 ```
-[测试日志](TODO)
+[测试日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/runtest-4-23.log)
 
 ## 编译安装python接口
 - 编译
@@ -160,7 +160,7 @@ make runtest 1> runtest-4-23.log 2> runtest-4-23.error
 cd build
 make pycaffe 1> pycaffe-4-23.log 2> pycaffe-4-23.error 
 ```
-[编译日志](TODO)
+[编译日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/pycaffe-4-23.log)
 
 ---
 
@@ -175,7 +175,7 @@ make pycaffe install
 ```shell
 ldd $HOME/software/caffe/build/install/python/caffe/_caffe.so > ldd_caffe.so.log
 ```
-[依赖路径](TODO)
+[依赖路径](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/ldd_caffe.so-4-23.log)
 
 ---
 - 版本发布
