@@ -220,7 +220,30 @@ For python: [pycaffe-1.0.0](https://github.com/chenkangyang/caffe/releases/downl
 - [x] Support: `opencv-4.3`
 - [x] Support: `python3.7` `numpy 1.19.2` `protobuf-3.6` 
 
-python 安装 caffe 模块:
+# pycaffe环境移植指南
+
+## C++依赖
+`lld pycaffe-1.0.0/_caffe.so` 看缺少哪些动态库，就安装哪些动态库
+
+`conda install -c confa-forge 库名称` 如果有 sudo 权限就 `yum install` `apt-get`
+找不到的就自己编译一下，包管理工具的好处：解决了依赖之间的版本对应关系，避免踩坑
+
+```
+conda install -c conda-forge glog=0.4.0 
+conda install -c conda-forge lmdb=0.9.24
+conda install -c conda-forge openblas
+conda install -c conda-forge leveldb=1.18
+conda install -c conda-forge boost=1.74
+conda install -c conda-forge hdf5=1.12
+```
+
+并且，将这些库添加到`$LD_LIBRARY_PATH`
+再动态装载：`lld pycaffe-1.0.0/_caffe.so`
+
+
+如果依赖是安装于`conda`的虚拟环境下的，激活`python`虚拟环境时，执行默认的`sh conda.sh`仅更新`$PATH`，不更新`$LD_LIBRARY_PATH`，而将虚拟环境下的动态库路径写入`rc`的`$LD_LIBRARY_PATH`，非常不优雅。**所以，需要修改`conda.sh`脚本，改成动态更新`$LD_LIBRARY_PATH`(激活虚拟环境时，更新`$LD_LIBRARY_PATH`，退出虚拟环境时，恢复`$LD_LIBRARY_PATH`)**
+
+## python依赖
 
 ```shell
 conda create -n caffe python==3.7
@@ -233,4 +256,14 @@ pip install -r requirements
 cd /your/path/to/site-packages
 ln -s pycaffe-1.0.0/caffe .
 python -c "import caffe"
+```
+
+# 最省事的一键安装(机器软硬件版本较新的话不推荐)
+
+直接安装`conda` 的 `intel`镜像里最新的[caffe-1.1.6-py36_intel_1](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/intel/linux-64/caffe-1.1.6-py36_intel_1.tar.bz2)包 (2019-09-06 02:26)
+
+```
+conda create -n caffe python==3.6
+source activate caffe
+conda install -c intel caffe
 ```
