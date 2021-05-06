@@ -46,7 +46,7 @@ Please cite Caffe in your publications if it helps your research:
 ---
 # 快速安装指南
 系统 Centos7
-[踩坑记录](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/%E8%B8%A9%E5%9D%91.md)
+[踩坑记录](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/%E8%B8%A9%E5%9D%91.md)
 基于源码master`9b89154`的改动: 
 1. 支持`opencv-4.3`, [安装脚本](https://github.com/chenkangyang/setup/blob/181/zzopencv.sh); [.zshrc](https://github.com/chenkangyang/setup/blob/181/.zshrc)
 2. 支持`cuda-11.1`, `cudnn-8`
@@ -113,7 +113,7 @@ cmake ..
 cd build
 ccmake ..
 ```
-[完整参考](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/ccmake-5-6.log)
+[完整参考](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/ccmake-5-6.log)
 
 这一步自动生成 `build/Makefile`
 
@@ -122,14 +122,14 @@ ccmake ..
 cd build
 make -j"$(nproc)" 1> make-5-6.log 2> make-5-6.error 
 ```
-[日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/make-5-6.log)
+[日志](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/make-5-6.log)
 
 ## 安装测试
 ```shell
 cd build
 make install 1> install-5-6.log 2> install-5-6.error
 ```
-[安装日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/install-5-6.log)
+[安装日志](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/install-5-6.log)
 
 ---
 
@@ -137,7 +137,7 @@ make install 1> install-5-6.log 2> install-5-6.error
 cd build
 make runtest 1> runtest-5-6.log 2> runtest-5-6.error 
 ```
-[测试日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/runtest-5-6.log)
+[测试日志](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/runtest-5-6.log)
 
 ## 编译安装python接口
 - 编译
@@ -145,7 +145,7 @@ make runtest 1> runtest-5-6.log 2> runtest-5-6.error
 cd build
 make pycaffe 1> pycaffe-5-6.log 2> pycaffe-5-6.error 
 ```
-[编译日志](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/pycaffe-5-6.log)
+[编译日志](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/pycaffe-5-6.log)
 
 ---
 
@@ -160,7 +160,7 @@ make pycaffe install
 ```shell
 ldd $HOME/software/caffe/build/install/python/caffe/_caffe.so > ldd_caffe.so.log
 ```
-[依赖路径](https://github.com/chenkangyang/caffe/blob/opencv4/build_logs/ldd_caffe.so-5-6.log)
+[依赖路径](https://github.com/chenkangyang/caffe/blob/cuda11/build_logs/ldd_caffe.so-5-6.log)
 
 ---
 - 版本发布
