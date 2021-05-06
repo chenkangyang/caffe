@@ -1,0 +1,42 @@
+Consolidate compiler generated dependencies of target caffeproto
+[  2%] Built target caffeproto
+Consolidate compiler generated dependencies of target caffe
+[  4%] Linking CXX shared library ../../lib/libcaffe.so
+[ 87%] Built target caffe
+Consolidate compiler generated dependencies of target extract_features
+Consolidate compiler generated dependencies of target convert_mnist_data
+Consolidate compiler generated dependencies of target convert_cifar_data
+Consolidate compiler generated dependencies of target upgrade_net_proto_text
+Consolidate compiler generated dependencies of target convert_mnist_siamese_data
+Consolidate compiler generated dependencies of target convert_imageset
+Consolidate compiler generated dependencies of target caffe.bin
+Consolidate compiler generated dependencies of target compute_image_mean
+Consolidate compiler generated dependencies of target upgrade_solver_proto_text
+Consolidate compiler generated dependencies of target classification
+[ 87%] Linking CXX executable mnist/convert_mnist_data
+[ 87%] Linking CXX executable siamese/convert_mnist_siamese_data
+Consolidate compiler generated dependencies of target upgrade_net_proto_binary
+[ 89%] Linking CXX executable cifar10/convert_cifar_data
+[ 89%] Linking CXX executable extract_features
+Consolidate compiler generated dependencies of target pycaffe
+[ 90%] Linking CXX executable compute_image_mean
+[ 90%] Linking CXX executable convert_imageset
+[ 90%] Linking CXX executable caffe
+[ 91%] Linking CXX executable upgrade_solver_proto_text
+[ 93%] Linking CXX executable upgrade_net_proto_text
+[ 93%] Linking CXX executable cpp_classification/classification
+[ 93%] Linking CXX executable upgrade_net_proto_binary
+[ 93%] Linking CXX shared library ../lib/_caffe.so
+Creating symlink /home/zhangwenting/software/caffe/python/caffe/_caffe.so -> /home/zhangwenting/software/caffe/build/lib/_caffe.so
+[ 94%] Built target pycaffe
+[ 95%] Built target convert_mnist_siamese_data
+[ 95%] Built target upgrade_solver_proto_text
+[ 97%] Built target upgrade_net_proto_binary
+[ 97%] Built target caffe.bin
+[ 97%] Built target upgrade_net_proto_text
+[ 97%] Built target convert_mnist_data
+[ 97%] Built target convert_imageset
+[ 98%] Built target compute_image_mean
+[ 98%] Built target classification
+[100%] Built target extract_features
+[100%] Built target convert_cifar_data

@@ -1,0 +1,28 @@
+F0506 18:42:24.736501  7883 adam_solver.cu:22] Check failed: error == cudaSuccess (209 vs. 0)  no kernel image is available for execution on the device
+*** Check failure stack trace: ***
+    @     0x7f716398a4dd  google::LogMessage::Fail()
+    @     0x7f7163992071  google::LogMessage::SendToLog()
+    @     0x7f7163989ecd  google::LogMessage::Flush()
+    @     0x7f716398b76a  google::LogMessageFatal::~LogMessageFatal()
+    @     0x7f716326e255  caffe::adam_update_gpu<>()
+    @     0x7f71631f3818  caffe::AdamSolver<>::ComputeUpdateValue()
+    @     0x7f7163201533  caffe::SGDSolver<>::ApplyUpdate()
+    @     0x7f71631e9629  caffe::Solver<>::Step()
+    @     0x7f71631e9f29  caffe::Solver<>::Solve()
+    @           0xaca40f  caffe::GradientBasedSolverTest<>::RunLeastSquaresSolver()
+    @           0xaaa06d  caffe::GradientBasedSolverTest<>::TestLeastSquaresUpdate()
+    @           0xe3c78d  testing::internal::HandleExceptionsInMethodIfSupported<>()
+    @           0xe352f5  testing::Test::Run()
+    @           0xe35438  testing::TestInfo::Run()
+    @           0xe35515  testing::TestCase::Run()
+    @           0xe35a2c  testing::internal::UnitTestImpl::RunAllTests()
+    @           0xe35ad3  testing::UnitTest::Run()
+    @           0x8cfd93  main
+    @     0x7f7149c8fc05  __libc_start_main
+    @           0x8d71b3  (unknown)
+    @              (nil)  (unknown)
+/bin/sh: line 1:  7883 Aborted                 (core dumped) /home/zhangwenting/software/caffe/build/test/test.testbin --gtest_shuffle
+make[3]: *** [src/caffe/test/CMakeFiles/runtest] Error 134
+make[2]: *** [src/caffe/test/CMakeFiles/runtest.dir/all] Error 2
+make[1]: *** [src/caffe/test/CMakeFiles/runtest.dir/rule] Error 2
+make: *** [runtest] Error 2

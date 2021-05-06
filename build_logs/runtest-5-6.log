@@ -1,0 +1,287 @@
+[  2%] Built target caffeproto
+[ 70%] Built target caffe
+Consolidate compiler generated dependencies of target gtest
+[ 71%] Built target gtest
+Consolidate compiler generated dependencies of target test.testbin
+[ 71%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o
+[ 71%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o
+[ 72%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o
+[ 72%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o
+[ 73%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o
+[ 73%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o
+[ 73%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o
+[ 74%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o
+[ 74%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o
+[ 74%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o
+[ 75%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o
+[ 75%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o
+[ 76%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o
+[ 76%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o
+[ 76%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o
+[ 78%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o
+[ 78%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o
+[ 78%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o
+[ 79%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o
+[ 79%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o
+[ 80%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o
+[ 80%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o
+[ 80%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o
+[ 81%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o
+[ 81%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o
+[ 81%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o
+[ 82%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o
+[ 82%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o
+[ 82%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o
+[ 83%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o
+[ 83%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o
+[ 84%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o
+[ 84%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o
+[ 84%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o
+[ 85%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o
+[ 85%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o
+[ 85%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o
+[ 86%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o
+[ 86%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o
+[ 87%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o
+[ 87%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o
+[ 87%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o
+[ 89%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o
+[ 89%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o
+[ 89%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o
+[ 90%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o
+[ 90%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o
+[ 91%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o
+[ 91%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o
+[ 91%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o
+[ 92%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o
+[ 92%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o
+[ 92%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o
+[ 93%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o
+[ 93%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o
+[ 93%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o
+[ 94%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o
+[ 94%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o
+[ 95%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o
+[ 95%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o
+[ 95%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o
+[ 96%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o
+[ 96%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o
+[ 96%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o
+[ 97%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o
+[ 97%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o
+[ 98%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o
+[ 98%] Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o
+[ 98%] Linking CXX executable ../../../test/test.testbin
+[100%] Built target test.testbin
+Cuda number of devices: 3
+Current device id: 0
+Current device name: GeForce RTX 3090
+Note: Randomizing tests' orders with a seed of 81643 .
+[==========] Running 2207 tests from 285 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from PlatformTest
+[ RUN      ] PlatformTest.TestInitialization
+Major revision number:         8
+Minor revision number:         6
+Name:                          GeForce RTX 3090
+Total global memory:           25447170048
+Total shared memory per block: 49152
+Total registers per block:     65536
+Warp size:                     32
+Maximum memory pitch:          2147483647
+Maximum threads per block:     1024
+Maximum dimension 0 of block:  1024
+Maximum dimension 1 of block:  1024
+Maximum dimension 2 of block:  64
+Maximum dimension 0 of grid:   2147483647
+Maximum dimension 1 of grid:   65535
+Maximum dimension 2 of grid:   65535
+Clock rate:                    1695000
+Total constant memory:         65536
+Texture alignment:             512
+Concurrent copy and execution: Yes
+Number of multiprocessors:     82
+Kernel execution timeout:      No
+Unified virtual addressing:    Yes
+[       OK ] PlatformTest.TestInitialization (0 ms)
+[----------] 1 test from PlatformTest (0 ms total)
+
+[----------] 7 tests from CPUMathFunctionsTest/1, where TypeParam = double
+[ RUN      ] CPUMathFunctionsTest/1.TestAsum
+[       OK ] CPUMathFunctionsTest/1.TestAsum (1851 ms)
+[ RUN      ] CPUMathFunctionsTest/1.TestFabs
+[       OK ] CPUMathFunctionsTest/1.TestFabs (5 ms)
+[ RUN      ] CPUMathFunctionsTest/1.TestSign
+[       OK ] CPUMathFunctionsTest/1.TestSign (5 ms)
+[ RUN      ] CPUMathFunctionsTest/1.TestScale
+[       OK ] CPUMathFunctionsTest/1.TestScale (5 ms)
+[ RUN      ] CPUMathFunctionsTest/1.TestSgnbit
+[       OK ] CPUMathFunctionsTest/1.TestSgnbit (4 ms)
+[ RUN      ] CPUMathFunctionsTest/1.TestCopy
+[       OK ] CPUMathFunctionsTest/1.TestCopy (4 ms)
+[ RUN      ] CPUMathFunctionsTest/1.TestNothing
+[       OK ] CPUMathFunctionsTest/1.TestNothing (3 ms)
+[----------] 7 tests from CPUMathFunctionsTest/1 (1877 ms total)
+
+[----------] 4 tests from ContrastiveLossLayerTest/1, where TypeParam = caffe::CPUDevice<double>
+[ RUN      ] ContrastiveLossLayerTest/1.TestForwardLegacy
+[       OK ] ContrastiveLossLayerTest/1.TestForwardLegacy (1 ms)
+[ RUN      ] ContrastiveLossLayerTest/1.TestGradientLegacy
+[       OK ] ContrastiveLossLayerTest/1.TestGradientLegacy (212 ms)
+[ RUN      ] ContrastiveLossLayerTest/1.TestGradient
+[       OK ] ContrastiveLossLayerTest/1.TestGradient (225 ms)
+[ RUN      ] ContrastiveLossLayerTest/1.TestForward
+[       OK ] ContrastiveLossLayerTest/1.TestForward (0 ms)
+[----------] 4 tests from ContrastiveLossLayerTest/1 (438 ms total)
+
+[----------] 10 tests from PowerLayerTest/0, where TypeParam = caffe::CPUDevice<float>
+[ RUN      ] PowerLayerTest/0.TestPowerGradient
+[       OK ] PowerLayerTest/0.TestPowerGradient (6 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerTwoScaleHalfGradient
+[       OK ] PowerLayerTest/0.TestPowerTwoScaleHalfGradient (2 ms)
+[ RUN      ] PowerLayerTest/0.TestPower
+[       OK ] PowerLayerTest/0.TestPower (0 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerZeroGradient
+[       OK ] PowerLayerTest/0.TestPowerZeroGradient (2 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerOne
+[       OK ] PowerLayerTest/0.TestPowerOne (0 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerTwoGradient
+[       OK ] PowerLayerTest/0.TestPowerTwoGradient (2 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerZero
+[       OK ] PowerLayerTest/0.TestPowerZero (0 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerGradientShiftZero
+[       OK ] PowerLayerTest/0.TestPowerGradientShiftZero (5 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerTwo
+[       OK ] PowerLayerTest/0.TestPowerTwo (0 ms)
+[ RUN      ] PowerLayerTest/0.TestPowerOneGradient
+[       OK ] PowerLayerTest/0.TestPowerOneGradient (2 ms)
+[----------] 10 tests from PowerLayerTest/0 (19 ms total)
+
+[----------] 2 tests from EuclideanLossLayerTest/1, where TypeParam = caffe::CPUDevice<double>
+[ RUN      ] EuclideanLossLayerTest/1.TestGradient
+[       OK ] EuclideanLossLayerTest/1.TestGradient (0 ms)
+[ RUN      ] EuclideanLossLayerTest/1.TestForward
+[       OK ] EuclideanLossLayerTest/1.TestForward (1 ms)
+[----------] 2 tests from EuclideanLossLayerTest/1 (1 ms total)
+
+[----------] 18 tests from RandomNumberGeneratorTest/0, where TypeParam = float
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussianTimesBernoulli
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussianTimesBernoulli (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniformTimesUniformGPU
+/home/zhangwenting/software/caffe/src/caffe/test/test_random_number_generator.cpp:118: Failure
+The difference between sample_mean and true_mean is 5.875643253326416, which exceeds bound, where
+sample_mean evaluates to 5.875643253326416,
+true_mean evaluates to 0, and
+bound evaluates to 0.13163585960865021.
+/home/zhangwenting/software/caffe/src/caffe/test/test_random_number_generator.cpp:144: Failure
+Value of: num_above_upper
+  Actual: 3971
+Expected: 0
+/home/zhangwenting/software/caffe/src/caffe/test/test_random_number_generator.cpp:154: Failure
+The difference between bernoulli_p and sample_p_above_mean is 0.5, which exceeds bernoulli_bound, where
+bernoulli_p evaluates to 0.5,
+sample_p_above_mean evaluates to 1, and
+bernoulli_bound evaluates to 0.018999999389052391.
+[  FAILED  ] RandomNumberGeneratorTest/0.TestRngUniformTimesUniformGPU, where TypeParam = float (6 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussianGPU
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussianGPU (2 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussianTimesGaussianGPU
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussianTimesGaussianGPU (2 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniformTimesUniform
+[       OK ] RandomNumberGeneratorTest/0.TestRngUniformTimesUniform (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngBernoulli
+[       OK ] RandomNumberGeneratorTest/0.TestRngBernoulli (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussian2
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussian2 (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniformTimesBernoulli
+[       OK ] RandomNumberGeneratorTest/0.TestRngUniformTimesBernoulli (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngBernoulli2
+[       OK ] RandomNumberGeneratorTest/0.TestRngBernoulli2 (1 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussian2GPU
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussian2GPU (1 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniform2
+[       OK ] RandomNumberGeneratorTest/0.TestRngUniform2 (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniformGPU
+[       OK ] RandomNumberGeneratorTest/0.TestRngUniformGPU (2 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniformIntGPU
+[       OK ] RandomNumberGeneratorTest/0.TestRngUniformIntGPU (2 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngBernoulliTimesBernoulli
+[       OK ] RandomNumberGeneratorTest/0.TestRngBernoulliTimesBernoulli (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniform2GPU
+/home/zhangwenting/software/caffe/src/caffe/test/test_random_number_generator.cpp:118: Failure
+The difference between sample_mean and true_mean is 7.2723863124847412, which exceeds bound, where
+sample_mean evaluates to 2.4723861217498779,
+true_mean evaluates to -4.8000001907348633, and
+bound evaluates to 0.054848276078701019.
+/home/zhangwenting/software/caffe/src/caffe/test/test_random_number_generator.cpp:144: Failure
+Value of: num_above_upper
+  Actual: 10000
+Expected: 0
+/home/zhangwenting/software/caffe/src/caffe/test/test_random_number_generator.cpp:154: Failure
+The difference between bernoulli_p and sample_p_above_mean is 0.5, which exceeds bernoulli_bound, where
+bernoulli_p evaluates to 0.5,
+sample_p_above_mean evaluates to 1, and
+bernoulli_bound evaluates to 0.018999999389052391.
+[  FAILED  ] RandomNumberGeneratorTest/0.TestRngUniform2GPU, where TypeParam = float (2 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussianTimesGaussian
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussianTimesGaussian (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngUniform
+[       OK ] RandomNumberGeneratorTest/0.TestRngUniform (0 ms)
+[ RUN      ] RandomNumberGeneratorTest/0.TestRngGaussian
+[       OK ] RandomNumberGeneratorTest/0.TestRngGaussian (0 ms)
+[----------] 18 tests from RandomNumberGeneratorTest/0 (18 ms total)
+
+[----------] 3 tests from SigmoidCrossEntropyLossLayerTest/0, where TypeParam = caffe::CPUDevice<float>
+[ RUN      ] SigmoidCrossEntropyLossLayerTest/0.TestSigmoidCrossEntropyLoss
+[       OK ] SigmoidCrossEntropyLossLayerTest/0.TestSigmoidCrossEntropyLoss (2 ms)
+[ RUN      ] SigmoidCrossEntropyLossLayerTest/0.TestIgnoreGradient
+[       OK ] SigmoidCrossEntropyLossLayerTest/0.TestIgnoreGradient (0 ms)
+[ RUN      ] SigmoidCrossEntropyLossLayerTest/0.TestGradient
+[       OK ] SigmoidCrossEntropyLossLayerTest/0.TestGradient (1 ms)
+[----------] 3 tests from SigmoidCrossEntropyLossLayerTest/0 (3 ms total)
+
+[----------] 20 tests from BiasLayerTest/0, where TypeParam = caffe::CPUDevice<float>
+[ RUN      ] BiasLayerTest/0.TestGradientBroadcastMiddleWithParam
+[       OK ] BiasLayerTest/0.TestGradientBroadcastMiddleWithParam (159 ms)
+[ RUN      ] BiasLayerTest/0.TestBackwardBroadcastMiddleInPlace
+[       OK ] BiasLayerTest/0.TestBackwardBroadcastMiddleInPlace (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardEltwise
+[       OK ] BiasLayerTest/0.TestForwardEltwise (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBroadcastMiddle
+[       OK ] BiasLayerTest/0.TestForwardBroadcastMiddle (0 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientBroadcastEnd
+[       OK ] BiasLayerTest/0.TestGradientBroadcastEnd (148 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientEltwise
+[       OK ] BiasLayerTest/0.TestGradientEltwise (3 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientBias
+[       OK ] BiasLayerTest/0.TestGradientBias (81 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientBroadcastBegin
+[       OK ] BiasLayerTest/0.TestGradientBroadcastBegin (84 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientBiasAxis2
+[       OK ] BiasLayerTest/0.TestGradientBiasAxis2 (82 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBroadcastMiddleWithParam
+[       OK ] BiasLayerTest/0.TestForwardBroadcastMiddleWithParam (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardEltwiseWithParam
+[       OK ] BiasLayerTest/0.TestForwardEltwiseWithParam (0 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientEltwiseWithParam
+[       OK ] BiasLayerTest/0.TestGradientEltwiseWithParam (200 ms)
+[ RUN      ] BiasLayerTest/0.TestBackwardEltwiseInPlace
+[       OK ] BiasLayerTest/0.TestBackwardEltwiseInPlace (0 ms)
+[ RUN      ] BiasLayerTest/0.TestGradientBroadcastMiddle
+[       OK ] BiasLayerTest/0.TestGradientBroadcastMiddle (97 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBiasAxis2
+[       OK ] BiasLayerTest/0.TestForwardBiasAxis2 (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBroadcastMiddleInPlace
+[       OK ] BiasLayerTest/0.TestForwardBroadcastMiddleInPlace (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardEltwiseInPlace
+[       OK ] BiasLayerTest/0.TestForwardEltwiseInPlace (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBroadcastBegin
+[       OK ] BiasLayerTest/0.TestForwardBroadcastBegin (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBroadcastEnd
+[       OK ] BiasLayerTest/0.TestForwardBroadcastEnd (0 ms)
+[ RUN      ] BiasLayerTest/0.TestForwardBias
+[       OK ] BiasLayerTest/0.TestForwardBias (0 ms)
+[----------] 20 tests from BiasLayerTest/0 (855 ms total)
+
+[----------] 8 tests from AdamSolverTest/3, where TypeParam = caffe::GPUDevice<double>
+[ RUN      ] AdamSolverTest/3.TestAdamLeastSquaresUpdateWithWeightDecay

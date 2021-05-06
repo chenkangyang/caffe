@@ -150,19 +150,19 @@ if(BUILD_python)
     find_package(PythonInterp 3.0)
     find_package(PythonLibs 3.0)
     find_package(NumPy 1.7.1)
-    # Find the matching boost python implementation
+    # Find the matching boost python implementation; sometimes boost pyhton lib called "libboost_python38.so" or "libboost_python38-py.so"
     set(version ${PYTHONLIBS_VERSION_STRING})
 
-    STRING( REGEX REPLACE "[^0-9]" "" boost_py_version ${version} )
-    find_package(Boost 1.46 COMPONENTS "python-py${boost_py_version}")
-    set(Boost_PYTHON_FOUND ${Boost_PYTHON-PY${boost_py_version}_FOUND})
+    # STRING( REGEX REPLACE "[^0-9]" "" boost_py_version ${version} )
+    # find_package(Boost 1.46 COMPONENTS "python-py${boost_py_version}")
+    # set(Boost_PYTHON_FOUND ${Boost_PYTHON-PY${boost_py_version}_FOUND})
 
     while(NOT "${version}" STREQUAL "" AND NOT Boost_PYTHON_FOUND)
       STRING( REGEX REPLACE "([0-9.]+).[0-9]+" "\\1" version ${version} )
 
-      STRING( REGEX REPLACE "[^0-9]" "" boost_py_version ${version} )
-      find_package(Boost 1.46 COMPONENTS "python-py${boost_py_version}")
-      set(Boost_PYTHON_FOUND ${Boost_PYTHON-PY${boost_py_version}_FOUND})
+      # STRING( REGEX REPLACE "[^0-9]" "" boost_py_version ${version} )
+      # find_package(Boost 1.46 COMPONENTS "python-py${boost_py_version}")
+      # set(Boost_PYTHON_FOUND ${Boost_PYTHON-PY${boost_py_version}_FOUND})
 
       STRING( REGEX MATCHALL "([0-9.]+).[0-9]+" has_more_version ${version} )
       if("${has_more_version}" STREQUAL "")
