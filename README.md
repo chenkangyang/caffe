@@ -203,7 +203,7 @@ For python: [pycaffe-1.0.0](https://github.com/chenkangyang/caffe/releases/downl
 - [x] Support: `CentOS Linux release 7.2.1511` `CUDA-11.1` `CuDNN-8`
 - [x] Support: `gcc 9.1.0` `c++11` `cmake 3.20.1`
 - [x] Support: `opencv-4.3`
-- [x] Support: `python3.7` `numpy 1.19.2` `protobuf-3.6` 
+- [x] Support: `python3.8` `numpy 1.19.4` `protobuf-3.6` 
 
 # pycaffe环境移植指南
 
