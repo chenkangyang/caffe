@@ -1,0 +1,290 @@
+-- Found Boost: /home/zhangwenting/anaconda3/envs/cu111/lib/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.54") found components: system thread filesystem 
+-- Found gflags  (include: /home/zhangwenting/anaconda3/envs/cu111/include, library: /home/zhangwenting/anaconda3/envs/cu111/lib/libgflags.so)
+-- Found glog    (include: /home/zhangwenting/anaconda3/envs/cu111/include, library: /home/zhangwenting/anaconda3/envs/cu111/lib/libglog.so)
+-- Found PROTOBUF Compiler: /home/zhangwenting/software/protobuf-3.6.0/install/bin/protoc
+-- HDF5 C compiler wrapper is unable to compile a minimal HDF5 program.
+-- HDF5 CXX compiler wrapper is unable to compile a minimal HDF5 program.
+-- Found HDF5: /home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5_cpp.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so (found version "1.12.0") found components: HL 
+-- HDF5 C compiler wrapper is unable to compile a minimal HDF5 program.
+-- HDF5 CXX compiler wrapper is unable to compile a minimal HDF5 program.
+-- Found HDF5: /home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5_cpp.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5_cpp.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5_cpp.so;/home/zhangwenting/anaconda3/envs/cu111/lib/libhdf5.so (found version "1.12.0") found components: HL 
+-- Found lmdb    (include: /home/zhangwenting/anaconda3/envs/cu111/include, library: /home/zhangwenting/anaconda3/envs/cu111/lib/liblmdb.so)
+-- Found LevelDB (include: /home/zhangwenting/anaconda3/envs/cu111/include, library: /home/zhangwenting/anaconda3/envs/cu111/lib/libleveldb.so)
+-- Found Snappy  (include: /home/zhangwenting/anaconda3/envs/cu111/include, library: /home/zhangwenting/anaconda3/envs/cu111/lib/libsnappy.so)
+-- CUDA detected: 11.1
+-- Found cuDNN: ver. 5.1.5 found (include: /home/share/cudnn-8.0-v5.1/include, library: /home/share/cudnn-8.0-v5.1/lib64/libcudnn.so)
+-- Added CUDA NVCC flags for: sm_61 sm_52
+-- OpenCV found (/home/zhangwenting/zzapp/lib64/cmake/opencv4)
+-- Found OpenBLAS libraries: /home/zhangwenting/anaconda3/envs/cu111/lib/libopenblas.so
+-- Found OpenBLAS include: /home/zhangwenting/anaconda3/envs/cu111/include
+-- NumPy ver. 1.20.2 found (include: /home/zhangwenting/anaconda3/envs/cu111/lib/python3.8/site-packages/numpy/core/include)
+-- Found Boost: /home/zhangwenting/anaconda3/envs/cu111/lib/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.46") found components: python 
+-- Detected Doxygen OUTPUT_DIRECTORY: ./doxygen/
+-- 
+-- ******************* Caffe Configuration Summary *******************
+-- General:
+--   Version           :   1.0.0
+--   Git               :   v1.1
+--   System            :   Linux
+--   C++ compiler      :   /home/zhangwenting/zzapp/bin/c++
+--   Release CXX flags :   -O3 -DNDEBUG -std=c++11 -fPIC -Wall -std=c++11 -Wno-sign-compare -Wno-uninitialized
+--   Debug CXX flags   :   -g -std=c++11 -fPIC -Wall -std=c++11 -Wno-sign-compare -Wno-uninitialized
+--   Build type        :   Release
+-- 
+--   BUILD_SHARED_LIBS :   ON
+--   BUILD_python      :   ON
+--   BUILD_matlab      :   OFF
+--   BUILD_docs        :   ON
+--   CPU_ONLY          :   OFF
+--   USE_OPENCV        :   ON
+--   USE_LEVELDB       :   ON
+--   USE_LMDB          :   ON
+--   USE_NCCL          :   OFF
+--   ALLOW_LMDB_NOLOCK :   ON
+--   USE_HDF5          :   ON
+-- 
+-- Dependencies:
+--   BLAS              :   Yes (Open)
+--   Boost             :   Yes (ver. 1.74)
+--   glog              :   Yes
+--   gflags            :   Yes
+--   protobuf          :   Yes (ver. 3.6.0)
+--   lmdb              :   Yes (ver. 0.9.24)
+--   LevelDB           :   Yes (ver. 1.22)
+--   Snappy            :   Yes (ver. 1.1.8)
+--   OpenCV            :   Yes (ver. 4.3.0)
+--   CUDA              :   Yes (ver. 11.1)
+-- 
+-- NVIDIA CUDA:
+--   Target GPU(s)     :   Auto
+--   GPU arch(s)       :   sm_61 sm_52
+--   cuDNN             :   Yes (ver. 5.1.5)
+-- 
+-- Python:
+--   Interpreter       :   /home/zhangwenting/anaconda3/envs/cu111/bin/python (ver. 3.8.10)
+--   Libraries         :   /home/zhangwenting/anaconda3/envs/cu111/lib/libpython3.8.so (ver 3.8.10)
+--   NumPy             :   /home/zhangwenting/anaconda3/envs/cu111/lib/python3.8/site-packages/numpy/core/include (ver 1.20.2)
+-- 
+-- Documentaion:
+--   Doxygen           :   /usr/bin/doxygen (1.8.5)
+--   config_file       :   /home/zhangwenting/software/caffe/.Doxyfile
+-- 
+-- Install:
+--   Install path      :   /home/zhangwenting/software/caffe/build/install
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhangwenting/software/caffe/build
+Consolidate compiler generated dependencies of target caffeproto
+[  2%] Built target caffeproto
+Consolidate compiler generated dependencies of target caffe
+[  4%] Linking CXX shared library ../../lib/libcaffe.so
+[ 87%] Built target caffe
+Consolidate compiler generated dependencies of target extract_features
+[ 87%] Linking CXX executable extract_features
+[ 89%] Built target extract_features
+Consolidate compiler generated dependencies of target upgrade_net_proto_text
+[ 90%] Linking CXX executable upgrade_net_proto_text
+[ 90%] Built target upgrade_net_proto_text
+Consolidate compiler generated dependencies of target compute_image_mean
+[ 90%] Linking CXX executable compute_image_mean
+[ 91%] Built target compute_image_mean
+Consolidate compiler generated dependencies of target convert_imageset
+[ 93%] Linking CXX executable convert_imageset
+[ 93%] Built target convert_imageset
+Consolidate compiler generated dependencies of target upgrade_net_proto_binary
+[ 93%] Linking CXX executable upgrade_net_proto_binary
+[ 94%] Built target upgrade_net_proto_binary
+Consolidate compiler generated dependencies of target caffe.bin
+[ 94%] Linking CXX executable caffe
+[ 94%] Built target caffe.bin
+Consolidate compiler generated dependencies of target upgrade_solver_proto_text
+[ 95%] Linking CXX executable upgrade_solver_proto_text
+[ 95%] Built target upgrade_solver_proto_text
+Consolidate compiler generated dependencies of target convert_cifar_data
+[ 97%] Linking CXX executable cifar10/convert_cifar_data
+[ 97%] Built target convert_cifar_data
+Consolidate compiler generated dependencies of target convert_mnist_data
+[ 97%] Linking CXX executable mnist/convert_mnist_data
+[ 97%] Built target convert_mnist_data
+Consolidate compiler generated dependencies of target classification
+[ 97%] Linking CXX executable cpp_classification/classification
+[ 97%] Built target classification
+Consolidate compiler generated dependencies of target convert_mnist_siamese_data
+[ 97%] Linking CXX executable siamese/convert_mnist_siamese_data
+[ 98%] Built target convert_mnist_siamese_data
+Consolidate compiler generated dependencies of target pycaffe
+[ 98%] Linking CXX shared library ../lib/_caffe.so
+Creating symlink /home/zhangwenting/software/caffe/python/caffe/_caffe.so -> /home/zhangwenting/software/caffe/build/lib/_caffe.so
+[100%] Built target pycaffe
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/share/Caffe/CaffeConfig.cmake
+-- Old export file "/home/zhangwenting/software/caffe/build/install/share/Caffe/CaffeTargets.cmake" will be replaced.  Removing files [/home/zhangwenting/software/caffe/build/install/share/Caffe/CaffeTargets-release.cmake].
+-- Installing: /home/zhangwenting/software/caffe/build/install/share/Caffe/CaffeTargets.cmake
+-- Installing: /home/zhangwenting/software/caffe/build/install/share/Caffe/CaffeTargets-release.cmake
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/blob.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/caffe.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/common.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/data_transformer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/filler.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/internal_thread.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layer_factory.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/absval_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/accuracy_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/argmax_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/base_conv_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/base_data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/batch_norm_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/batch_reindex_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/bias_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/bnll_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/clip_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/concat_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/contrastive_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/conv_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/crop_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_conv_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_deconv_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_lcn_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_lrn_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_pooling_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_relu_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_sigmoid_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_softmax_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/cudnn_tanh_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/deconv_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/dropout_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/dummy_data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/eltwise_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/elu_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/embed_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/euclidean_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/exp_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/filter_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/flatten_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/hdf5_data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/hdf5_output_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/hinge_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/im2col_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/image_data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/infogain_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/inner_product_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/input_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/log_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/lrn_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/lstm_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/memory_data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/multinomial_logistic_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/mvn_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/neuron_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/parameter_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/pooling_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/power_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/prelu_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/python_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/recurrent_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/reduction_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/relu_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/reshape_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/rnn_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/scale_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/sigmoid_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/silence_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/slice_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/softmax_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/softmax_loss_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/split_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/spp_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/swish_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/tanh_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/threshold_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/tile_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/layers/window_data_layer.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/net.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/parallel.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/sgd_solvers.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/solver.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/solver_factory.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/syncedmem.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/test
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/test/test_caffe_main.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/test/test_gradient_check_util.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/benchmark.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/blocking_queue.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/cudnn.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/db.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/db_leveldb.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/db_lmdb.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/device_alternate.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/format.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/gpu_util.cuh
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/hdf5.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/im2col.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/insert_splits.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/io.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/math_functions.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/mkl_alternate.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/nccl.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/rng.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/signal_handler.h
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/util/upgrade_proto.hpp
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/include/caffe/proto/caffe.pb.h
+-- Installing: /home/zhangwenting/software/caffe/build/install/lib64/libcaffe.so.1.0.0
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/lib64/libcaffe.so.1.0.0" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/lib64/libcaffe.so
+-- Installing: /home/zhangwenting/software/caffe/build/install/lib64/libcaffeproto.a
+-- Installing: /home/zhangwenting/software/caffe/build/install/python/caffe/proto/caffe_pb2.py
+-- Installing: /home/zhangwenting/software/caffe/build/install/python/caffe/proto/__init__.py
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/caffe
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/caffe" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/compute_image_mean
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/compute_image_mean" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/convert_imageset
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/convert_imageset" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/extract_features
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/extract_features" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/upgrade_net_proto_binary
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/upgrade_net_proto_binary" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/upgrade_net_proto_text
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/upgrade_net_proto_text" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/upgrade_solver_proto_text
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/upgrade_solver_proto_text" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/convert_cifar_data
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/convert_cifar_data" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/classification
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/classification" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/convert_mnist_data
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/convert_mnist_data" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Installing: /home/zhangwenting/software/caffe/build/install/bin/convert_mnist_siamese_data
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/bin/convert_mnist_siamese_data" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/classify.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/detect.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/draw_net.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/requirements.txt
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/train.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/__init__.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/classifier.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/coord_map.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/detector.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/draw.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/imagenet
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/imagenet/ilsvrc_2012_mean.npy
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/io.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/net_spec.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/pycaffe.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/proto
+-- Installing: /home/zhangwenting/software/caffe/build/install/python/caffe/proto/__init__.py
+-- Installing: /home/zhangwenting/software/caffe/build/install/python/caffe/proto/caffe_pb2.py
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/proto/__pycache__
+-- Up-to-date: /home/zhangwenting/software/caffe/build/install/python/caffe/__pycache__
+-- Installing: /home/zhangwenting/software/caffe/build/install/python/caffe/_caffe.so
+-- Set runtime path of "/home/zhangwenting/software/caffe/build/install/python/caffe/_caffe.so" to "/home/zhangwenting/software/caffe/build/install/lib64:/usr/local/cuda/lib64:/home/zhangwenting/anaconda3/envs/cu111/lib:/home/zhangwenting/software/protobuf-3.6.0/install/lib:/home/share/cudnn-8.0-v5.1/lib64"
